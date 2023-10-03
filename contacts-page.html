@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+  <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="#!" class="logo">
+        <img src="./img/icons/logo.svg" alt="">
+      </a>
+      <ul class="nav__list">
+        <li class=""><a href="./../index.html" class="nav__list-link">Home</a></li>
+        <li class=""><a href="./../ourservice-page.html" class="nav__list-link" id="serv">Our Services</a></li>
+        <li class=""><a href="./../doctors-page.html" class="nav__list-link" id="doc">Doctors</a></li>
+        <li class=""><a href="./../aboutus-page.html" class="nav__list-link" id="about">About us</a></li>
+        <li class=""><a href="./../contacts-page.html" class="nav__list-link" id="contact">Contact us</a></li>
+      </ul>
+      <a class="nav__btn">
+        Make Appointment
+      </a>
+      <button class="mobile-nav-btn">
+        <img src="./img/icons/nav-btn.svg" alt="">
+      </button>
+    </nav>
+  </div>
+</header>
+<div class="mobile-nav">
+  <button class="mobile-nav-close">
+    <img src="./img/icons/close-nav-btn.svg" alt="">
+  </button>
+  <ul class="mobile-nav__list">
+    <li><a class="mobile-nav__list-link" href="./../index.html">Home</a></li>
+    <li><a class="mobile-nav__list-link" href="./../ourservice-page.html" id="serv-mob">Our Services</a></li>
+    <li><a class="mobile-nav__list-link" href="./../doctors-page.html" id="doc-mob">Doctors</a></li>
+    <li><a class="mobile-nav__list-link" href="./../aboutus-page.html" id="about-mob">About us</a></li>
+    <li><a class="mobile-nav__list-link" href="./../contacts-page.html" id="contact-mob">Contact us</a></li>
+  </ul>
+</div>
+  <div class="contactus">
+  <img class="contactus__img" src="./img/contactus-bg.png" alt="">
+</div>
+
+
+
+  <main>
+    <section class="appointment">
+  <div class="container">
+
+    <div class="contactus__title">
+      <h2>Contact us</h2>
+    </div>
+
+
+    <form class="appointment__form">
+
+
+      <div class="container_for_input">
+        <label>
+          <input type="text" placeholder="First Name">
+        </label>
+
+        <label>
+          <input type="text" placeholder="Last Name">
+        </label>
+      </div>
+
+      <div class="container_for_input">
+        <label>
+          <input type="email" placeholder="Email">
+        </label>
+
+        <label>
+          <input id="inputNub" type="number" placeholder="Phone">
+        </label>
+      </div>
+      <div class="container_for_input">
+        <label class="pic-cal pic-cal--date">
+          <img src="./img/icons/calendar-form.svg" alt="">
+          <input class="input-cal" id="datePicker" placeholder="Appointment Date">
+        </label>
+
+        <label id="timepick" class="pic-cal">
+          <img src="./img/icons/time-form.svg" alt="">
+          <input class="input-cal timepicker-ui-input" value="12:00 AM" placeholder="Appointment Time">
+        </label>
+      </div>
+      <div class="container_for_input">
+        <label class="textarea-label">
+          <textarea placeholder="Describe what you’re looking for..."></textarea>
+        </label>
+      </div>
+      <button class="appointment__form-btn">Send
+        <img class="appointment__form-btn--img" src="./img/icons/send.svg" alt="pic-send">
+      </button>
+
+    </form>
+
+
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+
+    <div class="footer__wrapper">
+      <div class="footer__contact">
+        <div class="footer__logo">
+          <img src="./img/icons/logo.svg" alt="">
+        </div>
+        <p class="footer__contact-adress">
+          1429 Something Bridge, LA 4281
+        </p>
+        <a href="tel:3214283213902" class="footer__contact-phone">
+          Call: (321) 428 321 3902
+        </a>
+        <ul class="footer__contact-social">
+          <li><a href=""><img src="./img/icons/twitter.svg" alt=""></a></li>
+          <li><a href=""><img src="./img/icons/facebook.svg" alt=""></a></li>
+          <li><a href=""><img src="./img/icons/linkedian.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="footer__explore">
+        <h4 class="footer__explore-title">Explore</h4>
+        <ul class="footer__explore-link">
+          <li><a href="#!">Feature</a></li>
+          <li><a href="#!">About us</a></li>
+          <li><a href="#!">FAQs</a></li>
+          <li><a href="#!">Contact</a></li>
+        </ul>
+
+
+      </div>
+
+      <div class="footer__legal">
+
+        <h4 class="footer__legal-title">Legal</h4>
+        <ul class="footer__legal-link">
+          <li><a href="#!">Privacy Policy</a></li>
+          <li><a href="#!">Terms of Services</a></li>
+          <li><a href="#!">Documentations</a></li>
+          <li><a href="#!">Help Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__subscribe">
+        <h4 class="footer__legal-subscribe">Subscribe</h4>
+        <p class="footer__subscribe-text">Subscribe to get the latest
+          news from us</p>
+
+        <span class="footer__alert-incorrect none">
+          Your email is incorrect
+        </span>
+
+        <span class="footer__alert-subscribed none">
+          Your are subscribed
+        </span>
+
+
+
+        <form class="footer__subscribe-form">
+          <div class="footer__subscribe-block">
+            <input id="footer_input" class="footer__subscribe-input" type="text" placeholder="Your Email">
+            <button id="footer_button" class="footer__subscribe-btn">Subscribe</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="footer__copyright-wrapper">
+
+          <div class="footer__copyright-right">
+            <p class="">© 2021 iMedical, All Rights Reserved</p>
+          </div>
+
+          <div class="footer__copyright-info">
+            <a href="#!">Privacy Policy</a>
+            <a href="#!">Terms of Services</a>
+            <a href="#!">Accesibility</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

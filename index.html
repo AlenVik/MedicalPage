@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="#!" class="logo">
+        <img src="./img/icons/logo.svg" alt="">
+      </a>
+      <ul class="nav__list">
+        <li class=""><a href="./../index.html" class="nav__list-link">Home</a></li>
+        <li class=""><a href="./../ourservice-page.html" class="nav__list-link" id="serv">Our Services</a></li>
+        <li class=""><a href="./../doctors-page.html" class="nav__list-link" id="doc">Doctors</a></li>
+        <li class=""><a href="./../aboutus-page.html" class="nav__list-link" id="about">About us</a></li>
+        <li class=""><a href="./../contacts-page.html" class="nav__list-link" id="contact">Contact us</a></li>
+      </ul>
+      <a class="nav__btn">
+        Make Appointment
+      </a>
+      <button class="mobile-nav-btn">
+        <img src="./img/icons/nav-btn.svg" alt="">
+      </button>
+    </nav>
+  </div>
+</header>
+<div class="mobile-nav">
+  <button class="mobile-nav-close">
+    <img src="./img/icons/close-nav-btn.svg" alt="">
+  </button>
+  <ul class="mobile-nav__list">
+    <li><a class="mobile-nav__list-link" href="./../index.html">Home</a></li>
+    <li><a class="mobile-nav__list-link" href="./../ourservice-page.html" id="serv-mob">Our Services</a></li>
+    <li><a class="mobile-nav__list-link" href="./../doctors-page.html" id="doc-mob">Doctors</a></li>
+    <li><a class="mobile-nav__list-link" href="./../aboutus-page.html" id="about-mob">About us</a></li>
+    <li><a class="mobile-nav__list-link" href="./../contacts-page.html" id="contact-mob">Contact us</a></li>
+  </ul>
+</div>
+  <div class="container">
+  <div class="header-content__wrapper">
+    <div class="header-content__box">
+      <div class="header-content__title">
+        <h1>Feel Comfort<br>
+          Be Healthy</h1>
+      </div>
+      <p class="header-content__text">Our professional team will take care of you, we value your time and health.</p>
+
+
+      <div class="header-content__block ">
+
+        <div class="header-content__info">
+          <img src="./img/icons/calendar.svg" alt="" class="header-content__info-img">
+          <div class="header-content__info-box">
+            <h4 class="header-content__info-title">Make an Appointment</h4>
+            <p class="header-content__info-text">Select best time for you.</p>
+          </div>
+        </div>
+
+        <div class="header-content__info">
+          <img src="./img/icons/user.svg" alt="" class="header-content__info-img">
+          <div class="header-content__info-box">
+            <h4 class="header-content__info-title">Find the Best Doctor</h4>
+            <p class="header-content__info-text">find the best doctor in a minute</p>
+          </div>
+        </div>
+
+        <div class="header-content__info">
+          <img src="./img/icons/location.svg" alt="" class="header-content__info-img">
+          <div class="header-content__info-box">
+            <h4 class="header-content__info-title">Visit the clinic</h4>
+            <p class="header-content__info-text">take care of your issues</p>
+          </div>
+        </div>
+
+        <div class="header-content__info">
+          <img src="./img/icons/message.svg" alt="" class="header-content__info-img">
+          <div class="header-content__info-box">
+            <h4 class="header-content__info-title">Ask Questions</h4>
+            <p class="header-content__info-text">Ask questions any time</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="header-content__appointment">
+        <a href="#!" class="header-content__appointment-link">Make Appointment
+          <img src="./img/icons/arrow-right.svg" alt="">
+        </a>
+        <div class="header-content__appointment-timework">
+          <span>Mon-Fri 10AM-9PM</span>
+          <span>Sat 10AM-2PM</span>
+        </div>
+      </div>
+    </div>
+    <img src="./img/home-bg.png" alt="" class="header-content__img">
+    <img src="./img/home-bg-width.png" alt="" class="header-content__img--width">
+  </div>
+
+</div>
+
+  <main>
+    <section class="services">
+  <div class="container">
+    <div class="services__wrapper">
+
+      <div class="services__title">
+        <h2>Our Service</h2>
+
+        <div class="services__btns">
+          <button class="services__btns-btn" id="prev">
+            <img src="./img/icons/arrow-slider-left.svg" alt="">
+          </button>
+          <button class="services__btns-btn" id="next">
+            <img src="./img/icons/arrow-slider-right.svg" alt="">
+          </button>
+        </div>
+
+      </div>
+
+      <div class="services__slider">
+        <!-- Slider main container -->
+<div class="swiper1">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img src="./img/services/services-1.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Immediate Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-2.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Dental Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-3.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Diagnostic Center</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-1.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Immediate Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-2.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Dental Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-3.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Diagnostic Center</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-1.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Immediate Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-2.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Dental Care</h4>
+    </div>
+    <div class="swiper-slide">
+      <img src="./img/services/services-3.png" alt="" class="swiper-slide__img">
+      <h4 class="swiper-slide__title">Diagnostic Center</h4>
+    </div>
+
+  </div>
+
+
+</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="whyus">
+  <div class="container">
+    <div class="whyus__wrapper">
+      <div class="whyus__title">
+        <h2>Why Us?</h2>
+      </div>
+
+      <div class="whyus__grid">
+
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/dna.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">DNA Diagnostics</h3>
+            <p class="whyus__card-text">We are proud to announce that we provide high quality diagnostics for DNA</p>
+          </div>
+        </div>
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/shield.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">Insurance</h3>
+            <p class="whyus__card-text">You can get our insurance to not care of any financial difficulties in future.
+            </p>
+          </div>
+        </div>
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/medicine.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">Medical Support</h3>
+            <p class="whyus__card-text">We have a huge amount of high quality medicine from Germany</p>
+          </div>
+        </div>
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/lupa.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">Lab Achievements</h3>
+            <p class="whyus__card-text">Medical has 12 laboratory achievements that have world level impact in
+              medicine.
+            </p>
+          </div>
+        </div>
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/water.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">24/7 Clean</h3>
+            <p class="whyus__card-text">We care about having a clean and safe rooms for our patients</p>
+          </div>
+        </div>
+        <div class="whyus__card">
+          <div class="why__card-img">
+            <img src="./img/whyus/stationary-bike.svg" alt="">
+          </div>
+          <div class="whyus__card-info">
+            <h3 class="whyus__card-title">Training Routine</h3>
+            <p class="whyus__card-text">Our doctors will help you get personal training routine to get the best
+              results
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</section>
+    <section class="doctors">
+  <div class="container">
+    <div class="doctors__wrapper">
+      <div class="doctors__title">
+        <h2>Our Qualified Doctors</h2>
+        <a href="#!" class="doctors__link">See All Doctors
+          <img src="./img/icons/arrow-right-doctors.svg" alt="">
+        </a>
+
+      </div>
+
+      <div class="doctors__grid">
+
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/1.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Jane Nicholson</h3>
+            <p class="doctors__card-position">Leading Diagnostic Doctor</p>
+            <p class="doctors__card-patients">+500 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/2.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Alison Pretty</h3>
+            <p class="doctors__card-position">Consultant Dentist</p>
+            <p class="doctors__card-patients">+320 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/3.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Rebecca Flows</h3>
+            <p class="doctors__card-position">Leading Diagnostic Doctor</p>
+            <p class="doctors__card-patients">+900 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/4.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Maria Anderson</h3>
+            <p class="doctors__card-position">Leading Diagnostic Doctor</p>
+            <p class="doctors__card-patients">+500 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/5.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Derek Mendes</h3>
+            <p class="doctors__card-position">Consultant Dentist</p>
+            <p class="doctors__card-patients">+320 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+        <div class="doctors__card">
+          <div class="doctors__card-img">
+            <img src="./img/doctors/6.png" alt="">
+          </div>
+          <div class="doctors__card-info">
+            <h3 class="doctors__card-name">Dr. Bob Singer</h3>
+            <p class="doctors__card-position">Leading Diagnostic Doctor</p>
+            <p class="doctors__card-patients">+900 Happy patients</p>
+            <p class="doctors__card-placework">iMedical Central Clinic, LA</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="statistics">
+  <div class="container">
+    <div class="statistics__wrapper">
+
+      <div class="statistics__block">
+        <h3 class="statistics__num">99%</h3>
+        <p class="statistics__text">Positive Feedback</p>
+      </div>
+      <div class="statistics-line"></div>
+      <div class="statistics__block">
+        <h3 class="statistics__num">2,300+</h3>
+        <p class="statistics__text">Positive Feedback</p>
+      </div>
+      <div class="statistics-line"></div>
+      <div class="statistics__block">
+        <h3 class="statistics__num">43</h3>
+        <p class="statistics__text">Professional Doctors</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="testimonials">
+  <div class="container">
+    <div class="testimonials__wrapper">
+
+
+      <div class="testimonials__title">
+        <h2>Testimonials</h2>
+
+        <div class="testimonials__btns">
+          <button class="testimonials__btns-btn" id="prev1">
+            <img src="./img/icons/arrow-slider-left.svg" alt="">
+          </button>
+          <button class="testimonials__btns-btn" id="next1">
+            <img src="./img/icons/arrow-slider-right.svg" alt="">
+          </button>
+        </div>
+
+      </div>
+
+      <div class="testimonials__slider">
+        <!-- Slider main container -->
+<div class="swiper2">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/1.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Sofia Potter
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/2.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Jordan Browler
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/1.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Sofia Potter
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/2.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Jordan Browler
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/1.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Sofia Potter
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="testimonials swiper-slide">
+
+      <img class="swiper-slide__img" src="./img/testimonials/2.png" alt="pic">
+
+      <div class="testimonials__info">
+        <h3 class="testimonials__info-title">
+          Jordan Browler
+        </h3>
+        <img src="./img/icons/stars.png" alt="" class="testimonials__info-stars">
+        <p class="testimonials__info-text">
+          These guys are incredible to work with. Like seriously! They did everything so good,
+          <span class="testimonials__info-text--cut"> that I did not even
+            imagine it
+            would come up this awesome! Really looking forward to working with them again.</span>
+        </p>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="appointment">
+  <div class="container">
+
+    <div class="appointment__title">
+      <h2>Make Appointment</h2>
+    </div>
+
+
+    <form class="appointment__form">
+
+
+      <div class="container_for_input">
+        <label>
+          <input type="text" placeholder="First Name">
+        </label>
+
+        <label>
+          <input type="text" placeholder="Last Name">
+        </label>
+      </div>
+
+      <div class="container_for_input">
+        <label>
+          <input type="email" placeholder="Email">
+        </label>
+
+        <label>
+          <input id="inputNub" type="number" placeholder="Phone">
+        </label>
+      </div>
+      <div class="container_for_input">
+        <label class="pic-cal pic-cal--date">
+          <img src="./img/icons/calendar-form.svg" alt="">
+          <input class="input-cal" id="datePicker" placeholder="Appointment Date">
+        </label>
+
+        <label id="timepick" class="pic-cal">
+          <img src="./img/icons/time-form.svg" alt="">
+          <input class="input-cal timepicker-ui-input" value="12:00 AM" placeholder="Appointment Time">
+        </label>
+      </div>
+      <div class="container_for_input">
+        <label class="textarea-label">
+          <textarea placeholder="Describe what you’re looking for..."></textarea>
+        </label>
+      </div>
+      <button class="appointment__form-btn">Send
+        <img class="appointment__form-btn--img" src="./img/icons/send.svg" alt="pic-send">
+      </button>
+
+    </form>
+
+
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+
+    <div class="footer__wrapper">
+      <div class="footer__contact">
+        <div class="footer__logo">
+          <img src="./img/icons/logo.svg" alt="">
+        </div>
+        <p class="footer__contact-adress">
+          1429 Something Bridge, LA 4281
+        </p>
+        <a href="tel:3214283213902" class="footer__contact-phone">
+          Call: (321) 428 321 3902
+        </a>
+        <ul class="footer__contact-social">
+          <li><a href=""><img src="./img/icons/twitter.svg" alt=""></a></li>
+          <li><a href=""><img src="./img/icons/facebook.svg" alt=""></a></li>
+          <li><a href=""><img src="./img/icons/linkedian.svg" alt=""></a></li>
+        </ul>
+      </div>
+
+
+
+      <div class="footer__explore">
+        <h4 class="footer__explore-title">Explore</h4>
+        <ul class="footer__explore-link">
+          <li><a href="#!">Feature</a></li>
+          <li><a href="#!">About us</a></li>
+          <li><a href="#!">FAQs</a></li>
+          <li><a href="#!">Contact</a></li>
+        </ul>
+
+
+      </div>
+
+      <div class="footer__legal">
+
+        <h4 class="footer__legal-title">Legal</h4>
+        <ul class="footer__legal-link">
+          <li><a href="#!">Privacy Policy</a></li>
+          <li><a href="#!">Terms of Services</a></li>
+          <li><a href="#!">Documentations</a></li>
+          <li><a href="#!">Help Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__subscribe">
+        <h4 class="footer__legal-subscribe">Subscribe</h4>
+        <p class="footer__subscribe-text">Subscribe to get the latest
+          news from us</p>
+
+        <span class="footer__alert-incorrect none">
+          Your email is incorrect
+        </span>
+
+        <span class="footer__alert-subscribed none">
+          Your are subscribed
+        </span>
+
+
+
+        <form class="footer__subscribe-form">
+          <div class="footer__subscribe-block">
+            <input id="footer_input" class="footer__subscribe-input" type="text" placeholder="Your Email">
+            <button id="footer_button" class="footer__subscribe-btn">Subscribe</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer__copyright">
+      <div class="container">
+        <div class="footer__copyright-wrapper">
+
+          <div class="footer__copyright-right">
+            <p class="">© 2021 iMedical, All Rights Reserved</p>
+          </div>
+
+          <div class="footer__copyright-info">
+            <a href="#!">Privacy Policy</a>
+            <a href="#!">Terms of Services</a>
+            <a href="#!">Accesibility</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="./js/index.bundle.js"></script>
+
+</body>
+
+</html>
